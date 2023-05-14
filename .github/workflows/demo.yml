@@ -10,3 +10,12 @@ jobs:
         run:
           echo First line!
           echo Second line!
+  name_of_second_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print data in console
+        run: echo Hello GH Actions!
+      - name: Pring two lines
+        run:
+          echo First line!
+          echo Second line!
