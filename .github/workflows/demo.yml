@@ -4,5 +4,9 @@ jobs:
   name_of_first_job:
     runs-on: ubuntu-latest
     steps:
-      - name: log data in console
+      - name: Print data in console
         run: echo Hello GH Actions!
+      - name: Pring two lines
+        run:
+          echo First line!
+          echo Second line!
